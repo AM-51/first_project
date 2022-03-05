@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITC SaaS Assignment - Figma</title>
+  <link rel="shortcut icon" href="./images/Figma_icon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="side-bar">
+      <div class="side-rectangle-headline">
+        <p class="f18-600 light-blue">SaaS Kit</p>
+      </div>
+      <div class="side-line-top"></div>
+      <div class="side-rectangle-profile" id="profile">
+        <img class="profile-pic" src="./images/profile_pic.svg" alt="Profile Pic" />
+        <div class="profile-details">
+          <p class="f14-500 black">Sierra Ferguson</p>
+          <p class="f11-500 light-gray">s.ferguson@gmail.com</p>
+        </div>
+      </div>
+      <div class="side-rectangle-container">
+        <div class="side-rectangle" id="dashboard">
+          <img class="dashboard-icon" src="./images/dashboard_icon.svg" alt="Dashboard Icon" />
+          <p class="f13-500 turquoise task-name-dashboard">Dashboard</p>
+        </div>
+        <div class="side-rectangle" id="tasks">
+          <img class="icons" src="./images/tasks_icon.svg" alt="Tasks Icon" />
+          <p class="f13-500 turquoise task-name">Tasks</p>
+        </div>
+        <div class="side-rectangle" id="email">
+          <img class="icons" src="./images/email_icon.svg" alt="Email Icon" />
+          <p class="f13-500 turquoise task-name">Email</p>
+        </div>
+        <div class="side-rectangle" id="contacts">
+          <img class="icons" src="./images/contacts_icon.svg" alt="Contacts Icon" />
+          <p class="f13-500 turquoise task-name">Contacts</p>
+        </div>
+        <div class="side-rectangle" id="chat">
+          <img class="icons" src="./images/chat_icon.svg" alt="Chat Icon" />
+          <p class="f13-500 turquoise task-name">Chat</p>
+        </div>
+        <div class="side-rectangle" id="deals">
+          <img class="icons" src="./images/deals_icon.svg" alt="Deals Icon" />
+          <p class="f13-500 turquoise task-name">Deals</p>
+        </div>
+        <div class="side-line-bottom"></div>
+        <div class="side-rectangle-settings" id="settings">
+          <img class="icons" src="./images/settings_icon.svg" alt="Settings Icon" />
+          <p class="f13-500 turquoise task-name">Settings</p>
+        </div>
+        <div class="side-rectangle-toggle-sidebar" id="toggleSidebar">
+          <div class="toggle-sidebar-container">
+            <img class="toggle-sidebar-icon" src="./images/toggle-sidebar.svg" alt="Toggle Sidebar Icon" />
+            <p class="f11-500 light-gray task-name-toggle-sidebar">
+              Toggle sidebar
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dashboard-container">
+      <div class="search-bar">
+        <div class="search-container">
+          <div class="search-bar-left">
+            <img class="search-bar-icon" src="./images/search_icon.svg" alt="Search Icon" />
+            <input class="f12-400 light-gray search-bar-input" type="text" name="Search Bar" id="searchBar"
+              placeholder="Global search" />
+          </div>
+          <img class="search-bar-bell" src="./images/bell_icon.svg" alt="Bell Icon" />
+        </div>
+      </div>
+      <div class="cards-container">
+        <div class="all-tasks-container">
+          <div class="rectangle-top">
+            <div class="top-task-headline">
+              <p class="f13-500 turquoise">8 task completed out of 10</p>
+              <div class="top-task-headline-right">
+                <p>show:&nbsp</p>
+                <p class="picker">This week&nbsp</p>
+                <img class="down-arrow" src="./images/down_arrow.svg" alt="Down arrow" />
+              </div>
+            </div>
+            <div class="lines">
+              <div class="green-line"></div>
+              <div class="gray-line"></div>
+            </div>
+            <div class="date-header">
+              <p class="f15-500 dark-gray">23 December, Sunday</p>
+            </div>
+            <div class="dates-wrapper">
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Sun</div>
+                <div class="f12-400 light-gray selected-date">23</div>
+              </div>
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Mon</div>
+                <div class="date f12-400 light-gray">24</div>
+              </div>
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Tue</div>
+                <div class="date f12-400 light-gray">25</div>
+              </div>
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Wed</div>
+                <div class="date f12-400 light-gray">26</div>
+              </div>
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Thu</div>
+                <div class="date f12-400 light-gray">27</div>
+              </div>
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Fri</div>
+                <div class="date f12-400 light-gray">28</div>
+              </div>
+              <div class="dates-container">
+                <div class="day f13-500 light gray">Sat</div>
+                <div class="date f12-400 light-gray">29</div>
+              </div>
+            </div>
+          </div>
+          <div class="tasks-line-top"></div>
+          <div class="tasks-container">
+            <div class="rectangle">
+              <div class="tasks-headline-container">
+                <p class="f15-500 dark-gray dots">
+                  Send benefit review by Sunday
+                </p>
+                <p class="tasks-headline-right">Reminder</p>
+              </div>
+              <div class="due-date-container">
+                <p class="f13-400 light-gray">Due date:&nbsp</p>
+                <p class="f1-400 mid-gray">December 23, 2018</p>
+              </div>
+              <div class="status-container">
+                <div class="user-details">
+                  <img src="./images/george_pic.svg" alt="George pic" />
+                  <p class="f13-400 light-gray user-names">George Fields</p>
+                </div>
+                <div class="status">
+                  <button class="completed-btn">Completed</button>
+                </div>
+              </div>
+            </div>
+            <div class="rectangle">
+              <div class="tasks-headline-container">
+                <p class="f15-500 dark-gray">Invite to office meet-up</p>
+                <p class="tasks-headline-right">Call</p>
+              </div>
+              <div class="due-date-container">
+                <p class="f13-400 light-gray">Due date:&nbsp</p>
+                <p class="f1-400 mid-gray">December 23, 2018</p>
+              </div>
+              <div class="status-container">
+                <div class="user-details">
+                  <img src="./images/rebecca pic.svg" alt="Rebecca pic" />
+                  <p class="f13-400 light-gray user-names">Rebecca Moore</p>
+                </div>
+                <div class="status">
+                  <div class="status-icons-container">
+                    <img class="edit-icon" src="./images/edit_icon.svg" alt="Edit icon" />
+                    <img class="trash-icon" src="./images/trash_icon.svg" alt="Trash icon" />
+                  </div>
+                  <button class="ended-btn">Ended</button>
+                </div>
+              </div>
+            </div>
+            <div class="rectangle">
+              <div class="tasks-headline-container">
+                <p class="f15-500 dark-gray">Office meet-up</p>
+                <p class="tasks-headline-right">Event</p>
+              </div>
+              <div class="due-date-container">
+                <p class="f13-400 light-gray">Due date:&nbsp</p>
+                <p class="f1-400 mid-gray">December 23, 2018</p>
+              </div>
+              <div class="status-container">
+                <div class="user-details">
+                  <img src="./images/lindsey_pic.svg" alt="Lindsey pic" />
+                  <p class="f13-400 light-gray user-names">Lindsey Stroud</p>
+                </div>
+                <div class="status">
+                  <button class="completed-btn">Completed</button>
+                </div>
+              </div>
+            </div>
+            <div class="f13-600 light-blue show-more">Show more</div>
+          </div>
+        </div>
+        <div class="percents-container">
+          <div class="deals">
+            <div class="deals-headline">
+              <p class="f15-500 dark-gray deals-headline-left">Deals</p>
+              <div class="deals-headline-right">
+                <p>show:&nbsp</p>
+                <p class="picker">monthly&nbsp</p>
+                <img class="down-arrow" src="./images/down_arrow.svg" alt="Down arrow" />
+              </div>
+            </div>
+            <div class="deals-line-top"></div>
+            <div class="closed-deals-container">
+              <span class="closed-deals-circle"></span>
+              <p class="f10-400">closed deals</p>
+            </div>
+            <div class="deals-graph">
+              <img class="deals-img" src="./images/deals_graph.svg" alt="Deals graph" />
+            </div>
+          </div>
+          <div class="percents">
+            <div class="percents-headline">
+              <p class="f15-500 dark-gray percents-headline-left">Tasks</p>
+              <div class="percents-headline-right">
+                <p>show:&nbsp</p>
+                <p class="picker">this month&nbsp</p>
+                <img class="down-arrow" src="./images/down_arrow.svg" alt="Down arrow" />
+              </div>
+            </div>
+            <div class="percents-line-top"></div>
+            <div class="percents-circle-container">
+              <div class="percents-circle">
+                <img class="percents-img" src="./images/percents.svg" alt="Percents" />
+              </div>
+              <ul class="f10-400 dark-gray">
+                <li class="active">Active</li>
+                <li class="completed">Completed</li>
+                <li class="ended">Ended</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
